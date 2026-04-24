@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autorizacion>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>1234567890123456789012345678901234567890123456789</numeroAutorizacion>
+  <fechaAutorizacion>2026-04-24T10:00:00-05:00</fechaAutorizacion>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>EMPRESA DE PRUEBA S.A.</razonSocial>
+    <nombreComercial>TIENDA DE PRUEBA</nombreComercial>
+    <ruc>1791234567001</ruc>
+    <claveAcceso>1234567890123456789012345678901234567890123456789</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000123</secuencial>
+    <dirMatriz>Av. Principal y Secundaria</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>24/04/2026</fechaEmision>
+    <dirEstablecimiento>Av. Principal y Secundaria</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>JUAN PEREZ</razonSocialComprador>
+    <identificacionComprador>1712345678</identificacionComprador>
+    <totalSinImpuestos>150.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <baseImponible>100.00</baseImponible>
+        <tarifa>15</tarifa>
+        <valor>15.00</valor>
+      </totalImpuesto>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>50.00</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>5.00</propina>
+    <importeTotal>170.00</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>P001</codigoPrincipal>
+      <descripcion>Producto con IVA 15%</descripcion>
+      <cantidad>2.00</cantidad>
+      <precioUnitario>50.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>100.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15</tarifa>
+          <baseImponible>100.00</baseImponible>
+          <valor>15.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>P002</codigoPrincipal>
+      <descripcion>Producto con IVA 0%</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>50.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>50.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>50.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+</factura>
+]]></comprobante>
+</autorizacion>
